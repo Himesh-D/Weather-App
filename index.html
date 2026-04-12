@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="cloudy.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>☁️ Weather App</h1>
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter City Name">
+            <button onclick="getWeather()">Search</button>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="actions">
+            <button onclick="getWeather(true)">Refresh</button>
+            <button onclick="clearHistory()">Clear History</button>
+        </div>
+
+        <!-- 📜 History -->
+        <div class="history">
+            <h3>Recent Searches</h3>
+            <ul id="historyList"></ul>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</html>
