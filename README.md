@@ -47,7 +47,7 @@ A fully functional weather application built using HTML, CSS, and JavaScript tha
 
 ## 🌐 Live Demo
 
-👉 [View Live](https://Himesh-D.github.io/weather-app)
+👉 [View Live](https://himesh-d.github.io/Weather-App/)
 
 ---
 
